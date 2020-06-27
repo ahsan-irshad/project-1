@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forms</title>
 </head>
+
 <body>
-    <p>my name is <s>hafiz</s>sammam</p>
-    
+    <form action="backend">
+        <div>
+            Name: <input type="text" placeholder="Write your name">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="My Email">
+        </div>
+        <br>
+        <div>
+            Password: <input type="password">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="Date">
+        </div>
+        <br>
+        <div>
+            <strong> Gender </strong>: Male <input type="radio" name="My Gender"> Female <input type="radio"
+                name="My Gender">
+        </div>
+        <br>
+        <div>
+            <strong> Bonus </strong>: <input type="number">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox">
+        </div>
+        <br>
+        <div>
+            Write your comment:<br> <textarea name="My text" cols="50" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit now">
+        </div>
+    </form>
+
 </body>
+
 </html>
